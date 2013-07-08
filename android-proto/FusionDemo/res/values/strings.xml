@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fusion Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="accel_x">X [m/s^2]</string>
+    <string name="accel_y">Y [m/s^2]</string>
+    <string name="accel_z">Z [m/s^2]</string>
+    <string name="yaw">Yaw [rad]</string>
+    <string name="roll">Roll [rad]</string>
+    <string name="pitch">Pitch [rad]</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="orientation">Fused Orientation</string>
+
+</resources>
