@@ -1,0 +1,66 @@
+* Logged parameters
+The following data should be logged at the maximum (reasonable)
+frequency:
+
+1. Acceleration in x,y,z direction [m/s^2]
+2. Gyro rate of rotation around x,y,z [rad/s] 
+3. GPS speed and location [m/s, long-lat]
+4. Orientation - yaw, roll, pith [rad]
+
+
+* Normal operation
+These maneuvers shall be possible without triggering false positives.
+
+** Acceleration from standstill
+Perform rapid acceleration from 0 – 100km/h.
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+** Deceleration to standstill
+Perform rapid acceleration from 0 – 100km/h. Rear brake vs front brake
+vs rear-front braking, please specify in notes column. Perform with
+locked rear brake for some runs.
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+** Emergency braking
+Perform emergency braking maneuver engaging front and rear brakes.
+Perform with locked rear brake for some runs.
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+** Driving over manhole covers, potholes, bumps
+Longitudinal acceleration due to bumps and potholes seem to pose the
+biggest challenge. A variety of road conditions should be tested at a
+variety of speed. Please provide specification of test in the notes column.
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+
+** Turns, bends
+Perform city rides and country rides with reasonable bends.
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+** Chopping the throttle
+Chopping the throttle following acceleration (preferably at full throttle).
+
+| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |      |                  |                                  |          |       |
+
+
+* Advanced Operation
+These maneuvers should be possible without triggering false positives
+** Slalom, figure 8s
+More advanced maneuvers generating greater lateral acceleration.
+
+* Basic Crash Tests
+These maneuvers shall trigger spline.
+
+* Advanced Crash Tests
+These maneuvers should trigger spline.
