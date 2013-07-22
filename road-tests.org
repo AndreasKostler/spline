@@ -14,53 +14,86 @@ These maneuvers shall be possible without triggering false positives.
 ** Acceleration from standstill
 Perform rapid acceleration from 0 – 100km/h.
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
+
 
 ** Deceleration to standstill
 Perform rapid acceleration from 0 – 100km/h. Rear brake vs front brake
 vs rear-front braking, please specify in notes column. Perform with
 locked rear brake for some runs.
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 ** Emergency braking
 Perform emergency braking maneuver engaging front and rear brakes.
 Perform with locked rear brake for some runs.
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 ** Driving over manhole covers, potholes, bumps
 Longitudinal acceleration due to bumps and potholes seem to pose the
 biggest challenge. A variety of road conditions should be tested at a
 variety of speed. Please provide specification of test in the notes column.
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 
 ** Turns, bends
 Perform city rides and country rides with reasonable bends.
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 ** Chopping the throttle
 Chopping the throttle following acceleration (preferably at full throttle).
 
-| Phone | Platform | Version | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
-|       |          |         |      |                  |                                  |          |       |
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 
 * Advanced Operation
 These maneuvers should be possible without triggering false positives
 ** Slalom, figure 8s
 More advanced maneuvers generating greater lateral acceleration.
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
 
 * Basic Crash Tests
 These maneuvers shall trigger spline.
+** Stationary ego vehicle, impact with moving object (car)
+Hit target in 45 degree increments and varying speeds. Special care
+should be take simulating rear-enders and front impacts.
+
+| Phone | Platform | Version | Angle of attack | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |                 |       |      |                  |                                  |          |       |
+
 
 * Advanced Crash Tests
-These maneuvers should trigger spline.
+These maneuvers should trigger spline. They will be hard to replicate but we should see it in perspective of the hurt report statistics:
+
+1. 75% of accidents were found to involve a motorcycle and a passenger
+   vehicle, while the remaining 25% of accidents were single
+   motorcycle accidents.
+2. In the single vehicle accidents, motorcycle rider error was present
+   as the accident precipitating factor in about two-thirds of the
+   cases, with the typical error being a slide-out and fall due to
+   overbraking or running wide on a curve due to excess speed or
+   under-cornering.
+
+
+** Moving ego vehicle, impact with moving object 
+Impact angle in 45 degree increments;
+| Phone | Platform | Version | Angle of attack | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |                 |       |      |                  |                                  |          |       |
+
+** Accidents without third party involvement
+highsiding, lowsiding, etc
+| Phone | Platform | Version | Speed | Bike | Max. Acc [m/s^2] | Direction (yaw,roll,pitch) [rad] | Filename | Notes |
+|       |          |         |       |      |                  |                                  |          |       |
+
+
+
